@@ -1,0 +1,15 @@
+The following programs are aimed to understand working with PyNN from scratch . The programs include very basic implementation of simple networks , synapses and cell models . Functionality of files : 
+
+1) 3 layered network 
+	It is an implementation of 3 layers of neurons , and an input layer . The PyNN implementation of cell models , synapses etc are done . 
+	Please see that the information processing here is serial and not parallel . 
+
+2) Brunnel Netowrk with STDP 
+	The code implements the Brunnel Network . THe codebase for this file has been taken from OSB . The code modifies the synaptic connections between the inhibitory and excitatory populations and vice versa by adding the phenomenon of Spike TIme Dependent Plasticity . 	
+
+3) HHsininput 
+	This file defines a simple implementation of a Hodgkin Huxley neuron injected with sinusoidal current .
+
+4) IF with DC input 
+	The python code is a simple implementaion of an Integrate and Fire neuron with standard parameters , with a DC current as input . 
+ 
